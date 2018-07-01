@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: gregory
+Build-Jdk: 1.7.0_45
+Extension-Name: fstrigger
+Implementation-Title: fstrigger
+Implementation-Version: 0.39
+Group-Id: org.jenkins-ci.plugins
+Short-Name: fstrigger
+Long-Name: Jenkins Filesystem Trigger Plug-in
+Url: http://wiki.jenkins-ci.org/display/JENKINS/FSTrigger+Plugin
+Plugin-Version: 0.39
+Hudson-Version: 1.554.1
+Jenkins-Version: 1.554.1
+Plugin-Developers: Gregory Boissinot:gbois:gregory.boissinot@gmail.com
+

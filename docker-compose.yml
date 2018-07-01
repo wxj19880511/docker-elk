@@ -42,6 +42,16 @@ services:
     depends_on:
       - elasticsearch
 
+  jenkins:
+    build:
+      context: jenkins/
+    volumes:
+      - ./jenkins_ws:/var/jenkins_home
+    ports:
+      - "9201:8080"
+    depends_on:
+      - logstash
+
 networks:
 
   elk:

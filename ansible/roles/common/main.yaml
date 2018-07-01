@@ -1,0 +1,5 @@
+- name: Check user name
+  shell: whoami
+
+- name: Lookup directory
+  shell: pwd

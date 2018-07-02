@@ -2,7 +2,5 @@ FROM python:3
 
 VOLUME ["/etc/ansible"]
 
-RUN easy_install pip
-RUN pip install ansible-container[docker]
-
+RUN pip install docker-py
 ENTRYPOINT ["ansible"]

@@ -1,3 +1,4 @@
 SSH_PORT: 22
-
+inventory_hostname: localhost
+ansible_product_uuid: 12
 ADMIN_USER: root

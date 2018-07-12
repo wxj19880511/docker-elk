@@ -1,0 +1,7 @@
+filebeat.prospectors:
+- type: log
+  paths:
+  - '/Users/kevinwan/PycharmProjects/docker-elk/filebeats/output.xml'
+  
+output.logstash:
+  hosts: ["localhost:5044"]
